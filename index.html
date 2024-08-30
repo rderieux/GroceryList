@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" />
-    <title>Grocery List</title>    
-</head>
-<body>
-    <header>
-        <h1>Robinski's Grocery List</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Grocery List</title>
+    <style>
+      header {
+        color: rgb(77, 156, 87);
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1>Robinski's Grocery List</h1>
     </header>
     <main>
-        <section>
-            <h2>Pantry Items</h2>
+      <h2>Pantry Items</h2>
+      <section class="pantry">
+        <section class="container">
+          <h3 class="title">Canned Goods</h3>
+          <ul class="canned goods">
+            <li>Beans</li>
+            <li>Corn</li>
+            <li>Peas</li>
+            <li>Peaches</li>
+          </ul>
         </section>
-        <section>
-            <h3>Canned</h3>
-            
+        <section class="container">
+          <h3 class="title">Dry Goods</h3>
+          <ul class="dry goods">
+            <li>Flour</li>
+            <li>Sugar</li>
+            <li>Rice</li>
+            <li>Baking Powder</li>
+          </ul>
         </section>
+        <img class="image pantry" src="./Images/pantry.jfif" />
+      </section>
+      <h2>Freezer Items</h2>
+      <section class="freezer">
+        <section class="container">
+          <h3 class="title">Veggies</h3>
+          <ol>
+            <li>Spinach</li>
+            <li>Broccoli</li>
+            <li>Cauliflower</li>
+            <li>Corn</li>
+          </ol>
+        </section>
+        <section class="container">
+          <h3 class="title">Snacks</h3>
+          <ol>
+            <li>Chicken nuggets</li>
+            <li>Hot pockets</li>
+            <li>Fries</li>
+            <li>Tator tots</li>
+          </ol>
+        </section>
+        <img class="image" src="./Images/freezer.jfif" />
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>

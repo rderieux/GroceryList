@@ -1,0 +1,40 @@
+header {
+    width: 55%;
+    
+}
+
+h2 {
+  background: burlywood;
+  text-transform: uppercase;
+  max-width: 30%;
+}
+
+h3 {
+
+}
+
+.pantry {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.freezer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container {
+    background: grey;
+    width: 20%;
+}
+
+.title{
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    padding-left: 10px;
+}
